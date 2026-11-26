@@ -4,7 +4,9 @@ Aplicación para registrar distribuidores, camiones por placa y movimientos de i
 
 Los registros se comparten entre dispositivos mediante el proyecto Supabase `control-camiones`. La app requiere una cuenta autorizada y conserva copia local. Los movimientos nuevos se sincronizan al espacio compartido y se actualizan en otros dispositivos abiertos.
 
-En la pestaña **Administrar** puedes cambiar el distribuidor y la placa de cada camión, quitar camiones conservando su historial y eliminar movimientos incorrectos. Las eliminaciones se sincronizan entre dispositivos.
+En la pestaña **Administrar** puedes cambiar el distribuidor, la placa y la tarifa por camionada de cada camión, quitar camiones conservando su historial y eliminar movimientos incorrectos. Las eliminaciones y tarifas se sincronizan entre dispositivos.
+
+Al agregar o editar un camión, define su tarifa habitual por camionada en quetzales. Al registrar cada ingreso o egreso, el monto se propone con esa tarifa y puedes ajustarlo para ese movimiento. El historial conserva el monto registrado; cada tarjeta suma los movimientos del camión y el dashboard muestra la suma acumulada de todos los montos registrados (ingresos más egresos).
 
 ## Acceso compartido
 
