@@ -1,15 +1,13 @@
 # Biblioteca de proyectos
 
-Este repositorio privado reúne los proyectos que vamos creando. Guarda una copia del código y sirve como índice para volver a cada proyecto.
-
-## Proyectos
-
-- [Nexo — gestor de proyectos](nexo/index.html): aplicación web para crear proyectos y tareas.
-
-## Añadir un proyecto nuevo
-
-Cada nuevo proyecto tendrá su propia carpeta en la raíz del repositorio, con su archivo de inicio (por ejemplo, `nombre-proyecto/index.html`) y los recursos que necesite. Al incorporarlo, actualizaremos esta lista para mantenerlo accesible desde aquí.
+Repositorio público con las aplicaciones web que vamos creando y sus archivos fuente.
 
 ## Abrir Nexo
 
-Abre la carpeta `nexo` y descarga `index.html` para ejecutar Nexo en un navegador. Los datos que se creen en Nexo se guardan en el almacenamiento local de ese navegador.
+[Entrar al gestor de proyectos](https://tablet3lasazaleas-create.github.io/proyectos/)
+
+El código de Nexo está en [nexo/index.html](nexo/index.html). Los datos que ingreses se guardan en el almacenamiento local del navegador que uses; no se sincronizan entre dispositivos.
+
+## Añadir proyectos
+
+Cada nuevo proyecto se guardará en una carpeta propia en la raíz (por ejemplo, `nombre-proyecto/index.html`) y se añadirá a este catálogo. Este repositorio es público, así que el código de los proyectos que agreguemos aquí será visible para cualquiera.
