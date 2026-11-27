@@ -1,6 +1,6 @@
 # Control de camiones
 
-Aplicación para registrar distribuidores, camiones por placa y movimientos de ingreso y egreso. Cada tarjeta muestra el conteo independiente de camionadas: se cuenta cada ingreso asociado a ese camión una sola vez.
+Aplicación para registrar distribuidores, camiones por placa y movimientos de ingreso y egreso. Cada tarjeta muestra el conteo independiente de camionadas: se cuenta cada ingreso asociado a ese camión una sola vez. La pestaña **Asistencia de camiones** registra por fecha si cada camión vino y cuántas camionadas hizo; estos datos también se comparten entre dispositivos.
 
 Los registros se comparten entre dispositivos mediante el proyecto Supabase `control-camiones`. La app requiere una cuenta autorizada y conserva copia local. Los movimientos nuevos se sincronizan al espacio compartido y se actualizan en otros dispositivos abiertos.
 
